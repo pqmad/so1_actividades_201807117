@@ -11,6 +11,7 @@ ENV REACT_APP_BACKEND_BASE_URL=http://localhost:3800
 
 # Copy app
 COPY . /opt/app
+COPY default.conf /etc/nginx/conf.d/default.conf
 
 WORKDIR /opt/app
 
