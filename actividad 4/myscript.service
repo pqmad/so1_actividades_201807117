@@ -1,0 +1,9 @@
+[Unit]
+Description=My Script
+
+[Service]
+Type=simple
+ExecStart=/ruta/a/myscript.sh
+
+[Install]
+WantedBy=multi-user.target
